@@ -31,27 +31,25 @@ function MoviePage() {
       fetchMovieData();
   }, [inputText]);
 
-    useEffect(() => {
-        const fetchMovieData2 = async () => {
-            try {
-              if(inputText){
-                return inputText
-              }
-                console.log("PASSOU AQUI")
-                const response = await fetch(
-                    `https://www.omdbapi.com/?apikey=7848316c&t=${movieTitle}`
-                );
-                const data = await response.json();
-                setDataMovie(data);
-                console.log("OLA2", data);
-            } catch (error) {
-                setDataMovie([])
-                console.log("Ja comeca", error);
-            }
-        };
-    
-        fetchMovieData2();
-    }, [movieTitle]);
+  useEffect(() => {
+    const fetchMovieData2 = async () => {
+        try {
+            if (!movieTitle) return; // Se movieTitle estiver indefinido, retornar sem fazer a solicitação
+            
+            console.log("PASSOU AQUI")
+            const response = await fetch(
+                `https://www.omdbapi.com/?apikey=7848316c&t=${movieTitle}`
+            );
+            const data = await response.json();
+            setDataMovie(data);
+            console.log("OLA2", data);
+        } catch (error) {
+            setDataMovie([])
+            console.log("Erro ao buscar os dados do filme:", error);
+        }
+    };
+    fetchMovieData2();
+}, [movieTitle]);
 
 
     
