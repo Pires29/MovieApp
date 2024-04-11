@@ -17,7 +17,7 @@ function MoviePage() {
           try {
               console.log("PASSOU")
               const response = await fetch(
-                  `http://www.omdbapi.com/?apikey=7848316c&t=${inputText}`
+                  `https://www.omdbapi.com/?apikey=7848316c&t=${inputText}`
               );
               const data = await response.json();
               setDataMovie(data);
