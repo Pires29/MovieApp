@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/MovieApp/static/css/main.746fe19c.css",
+    "main.js": "/MovieApp/static/js/main.bad2609c.js",
+    "static/js/787.90f0e5dd.chunk.js": "/MovieApp/static/js/787.90f0e5dd.chunk.js",
+    "static/media/Oppenheimer.jpg": "/MovieApp/static/media/Oppenheimer.6dfee71da8ff157fd94d.jpg",
+    "static/media/Aquaman.jpg": "/MovieApp/static/media/Aquaman.ea45b0b968f2ad75976b.jpg",
+    "static/media/Joker.jpg": "/MovieApp/static/media/Joker.64f4db54fe57b358d278.jpg",
+    "static/media/Deadpool.jpg": "/MovieApp/static/media/Deadpool.3c9fc9101ebdcacf90b0.jpg",
+    "static/media/top-gun-maverick.jpeg": "/MovieApp/static/media/top-gun-maverick.a9fe4b482792fd700a18.jpeg",
+    "static/media/slick.svg": "/MovieApp/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/MovieApp/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/MovieApp/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/MovieApp/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/MovieApp/index.html",
+    "main.746fe19c.css.map": "/MovieApp/static/css/main.746fe19c.css.map",
+    "main.bad2609c.js.map": "/MovieApp/static/js/main.bad2609c.js.map",
+    "787.90f0e5dd.chunk.js.map": "/MovieApp/static/js/787.90f0e5dd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.746fe19c.css",
+    "static/js/main.bad2609c.js"
+  ]
+}
