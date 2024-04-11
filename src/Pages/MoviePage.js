@@ -40,7 +40,6 @@ function MoviePage() {
                 console.log("PASSOU AQUI")
                 const response = await fetch(
                     `https://www.omdbapi.com/?apikey=7848316c&t=${movieTitle}`
-                    `https://www.omdbapi.com/?apikey=7848316c&t=${movieTitle}`
                 );
                 const data = await response.json();
                 setDataMovie(data);
