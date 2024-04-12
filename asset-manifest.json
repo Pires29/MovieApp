@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MovieApp/static/css/main.746fe19c.css",
-    "main.js": "/MovieApp/static/js/main.bad2609c.js",
+    "main.js": "/MovieApp/static/js/main.c5c120aa.js",
     "static/js/787.90f0e5dd.chunk.js": "/MovieApp/static/js/787.90f0e5dd.chunk.js",
     "static/media/Oppenheimer.jpg": "/MovieApp/static/media/Oppenheimer.6dfee71da8ff157fd94d.jpg",
     "static/media/Aquaman.jpg": "/MovieApp/static/media/Aquaman.ea45b0b968f2ad75976b.jpg",
@@ -14,11 +14,11 @@
     "static/media/slick.woff": "/MovieApp/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/MovieApp/index.html",
     "main.746fe19c.css.map": "/MovieApp/static/css/main.746fe19c.css.map",
-    "main.bad2609c.js.map": "/MovieApp/static/js/main.bad2609c.js.map",
+    "main.c5c120aa.js.map": "/MovieApp/static/js/main.c5c120aa.js.map",
     "787.90f0e5dd.chunk.js.map": "/MovieApp/static/js/787.90f0e5dd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.746fe19c.css",
-    "static/js/main.bad2609c.js"
+    "static/js/main.c5c120aa.js"
   ]
 }
